@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:textSize="14sp"
+        android:background="@color/colorAccent"
+        android:text="Hello World!"
+        />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="210dp"
+        android:text="Hello World!"
+        android:textSize="12sp"
+        android:layout_below="@id/textView"
+        android:layout_toRightOf="@id/textView"
+        android:background="@color/colorAccent"
+        />
+
+</RelativeLayout>

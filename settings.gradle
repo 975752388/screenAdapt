@@ -1,0 +1,3 @@
+rootProject.name='ScreenAdapt'
+include ':app'
+include ':lib'
